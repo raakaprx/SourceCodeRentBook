@@ -1,0 +1,53 @@
+.body-content {
+    background: #ffffff;
+    color: #030303;
+}
+
+.sidebar {
+    background: #b6d7db;
+    color :  #030303;
+}
+.sidebar a {
+  color: #020202;
+  text-decoration: none;
+  display: block;
+  padding: 20px 12px;
+}
+
+.sidebar a:hover {
+  background: #74d8ff;
+  color: #faf8f8;
+}
+
+.active {
+    background: #c4c2c2;
+    border-right: solid 8px #74d8ff;
+}
+.card-data {
+    border: solid 1px #b6d7db;
+    padding: 20px 50px;
+    color: #ffffff;
+}
+
+.card-data.books{
+  background-color:#F1C40F;
+}
+
+.card-data.categories{
+  background-color: #87CEEB;
+}
+
+.card-data.users{
+  background-color: #80BD98;
+}
+.card-data i {
+    font-size: 90px;
+}
+
+.card-desc{
+  font-size: 35px;
+}
+
+.card-count {
+  font-size: 30px;
+}
